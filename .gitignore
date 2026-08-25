@@ -1,0 +1,13 @@
+# Python environment & cache
+env/
+__pycache__/
+*.pyc
+
+# Data & PDF files
+pdf_downloads/
+*.pdf
+*.csv
+
+# Database & local settings
+*.db
+*.sqlite3
