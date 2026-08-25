@@ -62,24 +62,31 @@ Ensure you have Python 3.10+ and PostgreSQL installed on your machine.
 ---
 
 **Clone the Repository**
+```
 git clone https://github.com/sanjeet33/Liscence-print-status-identifier.git
 cd Liscence-print-status-identifier
+```
 
 ---
 
 **Install Dependencies**
+```
 pip install -r requirements.txt
-
+```
 ---
 
 # Database Configuration
 **1. Log into your PostgreSQL instance and create the database:**
+```
 CREATE DATABASE dotm_db;
 CREATE USER name WITH PASSWORD 'my_secure_password';
 GRANT ALL PRIVILEGES ON DATABASE dotm_db TO name;
+```
 
 **2.Ensure your database connection URI inside your scripts matches your local credentials:**
+```
 postgresql://name:my_secure_password@localhost:5432/dotm_db
+```
 
 ---
 
